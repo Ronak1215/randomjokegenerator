@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+}
+
+.main{
+  height: 100%;
+  width: 100%;
+  background-color: rgb(165, 165, 84);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container{
+  height: 30vw;
+  width: 25vw; 
+  background-color: rgb(0, 0, 0);
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+
+.laughing-img{
+  background-image: url("https://parspng.com/wp-content/uploads/2022/06/imojipng.parspng.com_.png");
+  height: 10vw;
+  width: 10vw;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  top: -80px;
+
+}
+.joke-container{
+  position: relative;
+  top: -40px;
+  height: 150px ;
+  width: 300px;
+}
+
+button{
+  position: relative;
+  background-color: rgb(165, 165, 84);
+  padding: 10px 20px;
+  border-radius: 15px;
+}
